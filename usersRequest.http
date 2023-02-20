@@ -3,13 +3,24 @@
 
 # GET http://localhost:5000 HTTP/1.1
 
-POST http://localhost:5000/api/users HTTP/1.1
-Content-Type: application/json
+# POST http://localhost:5000/api/users HTTP/1.1
+# Content-Type: application/json
 
-{
-    "name" :" Sadiq",
-    "email" : "abc@gmail.com",
-    "password": "123"
-}
+# {
+#     "name" :" Sadiq",
+#     "email" : "abc@gmail.com",
+#     "password": "123"
+# }
 
+# POST http://localhost:5000/api/users/login HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "email" : "abc@gmail.com",
+#     "password": "123"
+# }
+
+
+GET  http://localhost:5000/api/users/me HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZjM2NjA4NzdhMmM4ODM4NTU5ZDg0YyIsImlhdCI6MTY3Njg5ODk1NiwiZXhwIjoxNjc5NDkwOTU2fQ.uHWR2Z3d614mRnu7NECZ7VA841qs_SfotYrpGAPI3tE
 
