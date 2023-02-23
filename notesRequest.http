@@ -1,0 +1,18 @@
+# GET http://localhost:5000/api/tickets HTTP/1.1
+# Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZjNmM2UwNWFjODE2NjhkOTQ1MjY3NiIsImlhdCI6MTY3Njk4NDk2MCwiZXhwIjoxNjc5NTc2OTYwfQ.d3ahGY-fWsLLP-4F4Xc_wYrkB-IMuic5jKIKipCEYjg
+
+
+# 63f60b8ae803ac631b4da829
+
+GET http://localhost:5000/api/tickets/63f60b8ae803ac631b4da829/notes HTTP/1.1
+Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZjNmM2UwNWFjODE2NjhkOTQ1MjY3NiIsImlhdCI6MTY3Njk4NDk2MCwiZXhwIjoxNjc5NTc2OTYwfQ.d3ahGY-fWsLLP-4F4Xc_wYrkB-IMuic5jKIKipCEYjg
+
+# POST http://localhost:5000/api/tickets/63f60b8ae803ac631b4da829/notes HTTP/1.1
+# Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzZjNmM2UwNWFjODE2NjhkOTQ1MjY3NiIsImlhdCI6MTY3Njk4NDk2MCwiZXhwIjoxNjc5NTc2OTYwfQ.d3ahGY-fWsLLP-4F4Xc_wYrkB-IMuic5jKIKipCEYjg
+# Content-Type: application/json
+
+# {
+#     "text":"I need help"
+# }
+
+
